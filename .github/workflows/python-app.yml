@@ -37,5 +37,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        sys.path.append('\code')
+        sys.path.append(\code)
         pytest
