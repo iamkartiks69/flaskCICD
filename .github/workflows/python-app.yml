@@ -37,5 +37,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        export PYTHONPATH=%PYTHONPATH%
+        export PYTHONPATH=%PYTHONPATH%;C:\Users\kartikey.s\Desktop\Pipelinev0.1\flaskCICD\code
         pytest
