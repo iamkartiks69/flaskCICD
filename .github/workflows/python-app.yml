@@ -36,5 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-       set PYTHONPATH=%PYTHONPATH%;C:\Users\kartikey.s\Desktop\Pipelinev0.1\flaskCICD\code
         pytest
